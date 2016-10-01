@@ -45,8 +45,7 @@ $(document).ready(function() {
           var active_section = jQuery(this);
           var aa = active_section.attr("id");
           if (direction === "up") active_section = active_section.prev();
-          if (direction === "up") offs = '30%'; 
-          alert('hey')
+          if (direction === "up") offs = '30%';
           if(typeof active_section.attr("id") != 'undefined') { 
             $(".navigation a").removeClass("active");
             $('.navigation a[href="#' + active_section.attr("id") + '"]').addClass("active");
