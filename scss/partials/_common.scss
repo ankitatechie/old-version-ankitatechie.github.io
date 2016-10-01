@@ -1,0 +1,39 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6em;
+    color: $primary-color;
+    width: 100%;
+    margin: 0;
+}
+
+::selection {
+    background-color: #231F20;
+    color: #fff;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+section{
+    display: block;
+}
