@@ -2356,6 +2356,18 @@ section {
 .btn:hover a {
   color: #000; }
 
+.hidden-xs {
+  display: block !important; }
+
+.hidden-md {
+  display: none !important; }
+
+.divider {
+  background-color: #000;
+  height: 3px;
+  width: 36px;
+  margin: 0 auto 70px; }
+
 /* Header section */
 .header {
   position: fixed;
@@ -2372,6 +2384,16 @@ section {
 
 .header .left {
   width: 20%; }
+
+.header .round-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  text-align: center;
+  line-height: 34px;
+  font-weight: bold;
+  text-transform: uppercase; }
 
 .header .right {
   width: 79%;
@@ -2450,12 +2472,6 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   letter-spacing: 3px; }
-
-.about .divider {
-  background-color: #000;
-  height: 3px;
-  width: 36px;
-  margin: 0 auto 70px; }
 
 .about p {
   font-size: 15px;
@@ -2656,6 +2672,10 @@ section {
     width: 140px; }
   .btn a {
     padding: 10px 0; }
+  .hidden-xs {
+    display: none !important; }
+  .hidden-md {
+    display: block !important; }
   .header {
     position: absolute;
     padding: 10px;
@@ -2683,18 +2703,33 @@ section {
     width: 100%;
     display: block; }
   .skills .img-wrapper img {
-    max-width: 250px; }
+    max-width: 200px; }
   .skills .img-wrapper h2 {
     font-size: 18px;
-    top: 39%; }
+    top: 36%; }
   .skills .text-wrapper p {
     line-height: 2em;
     margin: 20px auto 15px; }
+  .work {
+    padding-top: 60px; }
   .work li {
-    height: 125px; }
+    height: 220px;
+    width: 100%; }
   .work h2 {
-    font-size: 14px;
-    padding: 0 15px; }
+    font-size: 24px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    text-align: center; }
+  .work .small-txt {
+    color: #fff;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 15px;
+    height: inherit;
+    width: 100%;
+    text-align: CENTER;
+    line-height: 220px; }
   .contact {
     padding: 50px 15px; }
   .contact .social-icons li {
